@@ -1,0 +1,10 @@
+
+<ul id="timeline" ng-repeat="entry in tw_timeline">
+	<li>
+		<img class="thumb" src="{{entry.user.profile_image_url}}" />
+		<span class="content">
+			<span class="author">{{entry.user.name}}</span>
+			<span class="text">{{entry.text}}</span>
+		</span>
+	</li>
+</ul>

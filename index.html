@@ -1,0 +1,27 @@
+<html ng-app="demoApp">
+    <head>
+        <title>Oauth.io + AngularJS demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Some basic stuff -->
+        <script src="lib/jquery/jquery-2.0.3.min.js"></script>
+        <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/angular/angular-route.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+        <!--==================-->
+
+        <script src="https://oauth.io/auth/download/latest/oauth.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" type="text/css" href="basic.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Twitter ~ client-side timeline</h1>
+            <div class="well">
+                <div class="basic-content" ng-view></div>
+            </div>
+        </div>
+    </body>
+</html>

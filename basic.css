@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+}
+
+.basic-content {
+  padding: 40px 15px;
+  text-align: center !important;
+}
+
+#timeline { list-style-type: none }
+#timeline li { clear: left; margin-bottom: 10px; padding-bottom: 10px; min-height: 70px; border-bottom: 1px solid #EEE }
+#timeline li .thum { float: left; position: relative; left: -10px }
+#timeline li .content { display: block; margin-left: 15px; margin-top: 5px }
+#timeline li .author { font-weight: bold; display: block }
